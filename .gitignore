@@ -1,0 +1,16 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local state
+*.db
+*.db-wal
+*.db-shm
+
+# Build output
+/bin/
+/dist/
+
+# OS
+.DS_Store
